@@ -29,7 +29,7 @@ const onSubmit = () => {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .screening-room-selection {
   display: grid;
   padding: 20px;

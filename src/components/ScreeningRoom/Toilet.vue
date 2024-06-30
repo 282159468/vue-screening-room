@@ -12,7 +12,7 @@ const { side } = toRefs(props)
   <div :class="{ toilet: true, [side]: side }">WC</div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .toilet {
   --radius-size: 20px;
 

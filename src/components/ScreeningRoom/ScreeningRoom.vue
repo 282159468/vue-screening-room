@@ -68,7 +68,7 @@ const onSeatClick = (id: string) => {
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .container {
   --col-width: 85px;
   --seat-gap: 5px;
@@ -87,7 +87,7 @@ const onSeatClick = (id: string) => {
 
   &::after {
     position: absolute;
-    bottom: -1px;
+    bottom: 0;
     left: 50%;
     width: 55px;
     height: 20px;

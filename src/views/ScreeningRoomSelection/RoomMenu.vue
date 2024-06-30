@@ -19,7 +19,7 @@ const currentId = defineModel<number>('currentId')
   </ul>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .menu-item {
   position: relative;
   display: grid;

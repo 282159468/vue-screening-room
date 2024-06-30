@@ -8,6 +8,8 @@ export default {
   ],
   plugins: ['stylelint-prettier', 'stylelint-no-unsupported-browser-features'],
   rules: {
-    'plugin/no-unsupported-browser-features': [true],
+    'plugin/no-unsupported-browser-features': [true, {
+      "ignore": ["css-nesting"],
+    }],
   },
 }
